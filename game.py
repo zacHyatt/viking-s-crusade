@@ -19,7 +19,7 @@ player_updated = player_right
 background_img = pygame.image.load('./craftpix-net-776320-free-pixel-art-fantasy-2d-battlegrounds/PNG/Battleground1/Bright/Battleground1.png')
 background_updated = pygame.transform.scale(background_img, (1920,1080))
 enemy_list = []
-enemy_img = pygame.image.load('./craftpix-net-281834-free-chaos-monsters-32x32-icon-pack/PNG/Transperent/Icon28.png')
+enemy_img = pygame.image.load('./Transperent/Icon28.png')
 enemy_updated = pygame.transform.scale(enemy_img,(100,100))
 SPAWNENEMY = pygame.USEREVENT+1
 pygame.time.set_timer(SPAWNENEMY,10)
